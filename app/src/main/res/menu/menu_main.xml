@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.telefonica.first.tresenraya.Principal">
+    <item
+        android:id="@+id/action_Principal"
+        android:orderInCategory="100"
+        android:title="Principal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Jugar"
+        android:orderInCategory="100"
+        android:title="Jugar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Configuracion"
+        android:orderInCategory="100"
+        android:title="Configuración"
+        app:showAsAction="never" />
+
+</menu>
