@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    tools:context="com.telefonica.first.tresenraya.Principal">
-
-    <include layout="@layout/content_main" />
+    tools:context="com.telefonica.first.tresenraya.SalirActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -22,5 +20,7 @@
             app:popupTheme="@style/AppTheme.AppBarOverlay" />
 
     </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_salir" />
 
 </android.support.design.widget.CoordinatorLayout>

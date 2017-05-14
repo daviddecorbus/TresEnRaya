@@ -17,6 +17,15 @@ public class General {
         } else if (id == R.id.action_Configuracion) {
             setActivity(c, Configuracion.class);
             return true;
+        } else if (id == R.id.action_Registro) {
+            setActivity(c, SalirActivity.class);
+            return true;
+        } else if (id == R.id.action_RegistroPartidas) {
+            setActivity(c, RankingActivity.class);
+            return true;
+        }else if (id == R.id.action_Salir) {
+            setActivity(c, Salir.class);
+            return true;
         }
         return false;
     }

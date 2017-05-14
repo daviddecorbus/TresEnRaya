@@ -17,5 +17,20 @@
         android:orderInCategory="100"
         android:title="Configuración"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Registro"
+        android:orderInCategory="100"
+        android:title="Registro"
+        app:showAsAction="never" />
+    <item
+    android:id="@+id/action_RegistroPartidas"
+    android:orderInCategory="100"
+    android:title="Registro Partidas"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Salir"
+        android:orderInCategory="100"
+        android:title="Salir"
+        app:showAsAction="never" />
 
 </menu>
